@@ -122,5 +122,16 @@
     border-radius: 50px;
 }
 
+/*ESERCIZIO 9*/
+
+.ex-9-img{
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    filter: contrast(100%) sepia(10);
+    border-radius: 50px;
+    transform: scale(1.5);
+}
 
 
