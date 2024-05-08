@@ -7,3 +7,12 @@
     background-color: red;
 }
 
+.ex-2-square {
+    transition: width 4s;
+}
+
+.ex-2-square:active {
+    cursor: pointer;
+    width: 100%;
+
+}
