@@ -137,7 +137,7 @@
 /*ESERCIZIO 10*/
 
 @keyframes gira {
-    100% {
+    0% {
         transform:rotate(1turn);
     }
 }
@@ -145,3 +145,16 @@
 .ex-10-icon{
     animation: gira 1s linear infinite;
 }
+
+/*ESERCIZIO 11*/
+
+@keyframes gira-anti {
+    100% {
+        transform:rotate(0.75turn);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: gira-anti 1s linear ;
+}
+
